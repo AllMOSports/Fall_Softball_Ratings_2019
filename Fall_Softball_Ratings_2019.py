@@ -11,9 +11,9 @@ import time
 # CONFIGURATION
 # ---------------------------------------------------------------------------
  
-SEASON_YEAR   = 2018
-SEASON_START  = date(2018, 8, 1)
-SEASON_END    = date(2018, 12, 15)   # kept same as football -- fall softball can run into December
+SEASON_YEAR   = 2019
+SEASON_START  = date(2019, 8, 1)
+SEASON_END    = date(2019, 12, 15)   # kept same as football -- fall softball can run into December
 BASE_URL      = "https://www.mshsaa.org/activities/scoreboard.aspx?alg=38&date={}"
 MAX_POINTS    = 50
 OUTPUT_PATH   = f"fall_softball_ratings_{SEASON_YEAR}.json"
